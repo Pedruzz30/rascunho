@@ -1,10 +1,32 @@
 :root{
+  /* PRINCIPAIS (as suas) */
   --bronze:#b09074;
   --marrom-escuro:#5d3a1a;
   --primary-color:#faf9f6;
   --secondary-color:#dfc8bc;
   --text-color:#4a4a4a;
+
+  /* Variações (pra dar vida sem inventar paleta nova) */
+  --bronze-strong:#9b7a60;     /* bronze mais forte */
+  --bronze-soft:#c9b099;       /* bronze clarinho */
+  --marrom:#4a2d14;            /* marrom mais fechado */
+  --surface:#ffffff;           /* cards */
+  --surface-2:#fff4ee;         /* cards quentes */
+  --border:#eadfd8;            /* bordas suaves */
+
+  /* Efeitos (o "glow" de spa elegante) */
+  --shadow-sm: 0 6px 18px rgba(93,58,26,0.10);
+  --shadow-md: 0 14px 40px rgba(93,58,26,0.14);
+  --shadow-lg: 0 24px 70px rgba(93,58,26,0.18);
+
+  --grad-warm: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  --grad-bronze: linear-gradient(135deg, var(--bronze-soft), var(--bronze));
+  --grad-deep: linear-gradient(135deg, rgba(93,58,26,0.95), rgba(176,144,116,0.35));
+
+  --radius-xl: 24px;
+  --radius-lg: 18px;
 }
+
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
