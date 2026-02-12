@@ -1,0 +1,33 @@
+header{
+  padding-top:calc(50px + 1rem + 2px);
+}
+
+.bloco-meio{
+  background:var(--primary-color);
+  min-height:100vh;
+  margin:0 auto;
+  color:var(--text-color);
+}
+
+.bloco-meio2{
+  background:var(--secondary-color);
+  min-height:100vh;
+  margin:0 auto;
+  color:#000;
+}
+
+.video-player{
+  margin-top:30px;
+  width:min(1100px,100%);
+  aspect-ratio:16/9;
+  border-radius:15px;
+}
+
+.img-ap{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  width:1024px;
+  height:768px;
+  margin:0 auto;
+}

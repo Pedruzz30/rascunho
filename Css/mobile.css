@@ -1,0 +1,8 @@
+@media (max-width:768px){
+  .nav-content{flex-direction:column;gap:15px;}
+  .benefits-section{flex-direction:column;padding:40px 5%;}
+  .text{font-size:22px;}
+  .clientes img{width:30%;}
+  .about-card,.about-card.reversed{flex-direction:column;}
+  .card-content{padding:30px;}
+}
