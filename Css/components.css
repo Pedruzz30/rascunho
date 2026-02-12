@@ -1,118 +1,56 @@
-/* NAVBAR */
-.navbar-spa{
-  background:var(--primary-color);
-  padding:15px 50px;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  box-shadow:0 4px 10px rgba(0,0,0,0.1);
-}
-.nav-content{
-  width:100%;
-  max-width:1200px;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-}
-.nav-logo img{
-  height:140px;
-  width:auto;
-}
-.nav-links{
-  display:flex;
-  gap:30px;
-}
-.nav-links a{
-  color:var(--text-color);
-  text-decoration:none;
-  font-family:"Cinzel",serif;
-  font-size:16px;
-  letter-spacing:1px;
-  position:relative;
-  transition:all 0.3s ease;
-}
-.nav-links a::after{
-  content:"";
-  position:absolute;
-  width:0;
-  height:2px;
-  bottom:-5px;
-  left:0;
-  background-color:var(--text-color);
-  transition:width 0.3s;
-}
-.nav-links a:hover::after,
-.nav-links a.active::after{width:100%;}
-
-/* BOTÕES */
-#cta-button,.meu-botao-principal{
-  text-decoration:none;
-  text-transform:uppercase;
-  background:linear-gradient(to right,var(--primary-color),var(--secondary-color));
-  display:inline-block;
-  padding:1em 3em;
-  font-weight:600;
-  border-radius:1000px;
-  transition:150ms ease;
-  color:var(--marrom-escuro);
-}
-#cta-button:hover,.meu-botao-principal:hover{scale:1.1;}
-.meu-botao-principal{margin-top:20px;}
-
-/* FORM BÁSICO */
-form{margin-top:30px;}
-input{
-  display:block;
-  margin:0 auto 15px;
-  font:inherit;
-  border-radius:30px;
-}
-input[type="text"],input[type="Senha"]{
-  padding:5px 20px;
-  width:400px;
-  height:50px;
-  border:none;
-  background-color:#ebedf5;
-}
-input[type="Submit"],input[type="Entrar"]{
-  background-color:rgb(6,103,248);
-  color:white;
-  border:none;
-  width:200px;
-  padding:10px;
-  font-weight:600;
-  cursor:pointer;
-  transition:150ms ease;
+.button {
+  border-radius: 999px;
+  display: inline-flex;
+  font-size: 0.93rem;
+  font-weight: 600;
+  justify-content: center;
+  padding: 0.8rem 1.25rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
 }
 
-/* SOCIAL ICONS */
-.example-2{display:flex;justify-content:center;align-items:center;}
-.example-2 .icon-content{margin:0 10px;position:relative;}
-.example-2 .icon-content .tooltip{
-  position:absolute;top:-30px;left:50%;transform:translateX(-50%);
-  color:#fff;padding:6px 10px;border-radius:5px;opacity:0;visibility:hidden;
-  font-size:14px;transition:all 0.3s ease;
+.button:hover {
+  transform: translateY(-2px);
 }
-.example-2 .icon-content:hover .tooltip{opacity:1;visibility:visible;top:-50px;}
-.example-2 .icon-content a{
-  position:relative;overflow:hidden;display:flex;justify-content:center;align-items:center;
-  width:50px;height:50px;border-radius:50%;color:#4d4d4d;background:#fff;
-  transition:all 0.3s ease-in-out;
+
+.button-primary {
+  background: var(--color-primary);
+  box-shadow: 0 8px 20px rgb(122 74 43 / 24%);
+  color: #fff;
 }
-.example-2 .icon-content a:hover{box-shadow:3px 2px 45px 0px rgb(0 0 0 / 12%);color:#fff;}
-.example-2 .icon-content a svg{position:relative;z-index:1;width:30px;height:30px;}
-.example-2 .icon-content a .filled{
-  position:absolute;bottom:0;left:0;width:100%;height:0;background-color:#000;
-  transition:all 0.3s ease-in-out;
+
+.button-primary:hover {
+  background: var(--color-primary-dark);
 }
-.example-2 .icon-content a:hover .filled{height:100%;}
-.example-2 .icon-content a[data-social="whatsapp"] .filled,
-.example-2 .icon-content a[data-social="whatsapp"] ~ .tooltip{background-color:#128c7e;}
-.example-2 .icon-content a[data-social="facebook"] .filled,
-.example-2 .icon-content a[data-social="facebook"] ~ .tooltip{background-color:#3b5998;}
-.example-2 .icon-content a[data-social="instagram"] .filled,
-.example-2 .icon-content a[data-social="instagram"] ~ .tooltip{
-  background:linear-gradient(45deg,#405de6,#5b51db,#b33ab4,#c135b4,#e1306c,#fd1f1f);
+
+.button-secondary {
+  background: #fff;
+  border: 1px solid var(--color-border);
+  color: #2f3438;
 }
-.example-2 .icon-content a[data-social="youtube"] .filled,
-.example-2 .icon-content a[data-social="youtube"] ~ .tooltip{background-color:#ff0000;}
+
+.button-secondary:hover {
+  box-shadow: 0 8px 20px rgb(0 0 0 / 9%);
+}
+
+.button-full {
+  width: 100%;
+}
+
+.card,
+.testimonial,
+.faq-list details,
+.hero-panel,
+.cta-box {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-large);
+  box-shadow: var(--shadow-soft);
+}
+
+.card {
+  padding: 1.4rem;
+}
+
+.card-accent {
+  background: linear-gradient(135deg, #fff 0%, #f5ece5 100%);
+}

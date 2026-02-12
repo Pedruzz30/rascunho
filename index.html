@@ -3,357 +3,291 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Massagem Home Spa | Carla Almeida Lira</title>
-  <meta name="description" content="Massoterapia home care com atendimento acolhedor. Relaxamento, alívio de dores e bem-estar no conforto do seu lar. Agende pelo WhatsApp." />
+  <title>Carla Almeida Lira | Massoterapia Home Care</title>
+  <meta
+    name="description"
+    content="Site de massoterapia home care com foco em relaxamento, alívio de tensão e atendimento humanizado no conforto da sua casa."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="Css/base.css" />
-  <link rel="stylesheet" href="Css/components.css" />
   <link rel="stylesheet" href="Css/layout.css" />
-  <link rel="stylesheet" href="Css/mobile.css" />
+  <link rel="stylesheet" href="Css/components.css" />
   <link rel="stylesheet" href="Css/sections.css" />
+  <link rel="stylesheet" href="Css/mobile.css" />
   <link rel="stylesheet" href="Css/pages.css" />
-
 </head>
-
 <body>
-  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <a class="skip-link" href="#main-content">Pular para o conteúdo principal</a>
 
-  <header class="topbar" role="banner">
-    <nav class="nav" aria-label="Navegação principal">
-      <a class="brand" href="#inicio" aria-label="Ir para o início">
-        <img src="imagens/logo_cl-removebg-preview.png" alt="Logo Carla Almeida Lira" class="brand-logo" />
+  <header class="site-header" id="inicio">
+    <div class="container header-content">
+      <a class="brand" href="#inicio" aria-label="Voltar ao início">
+        <span class="brand-mark" aria-hidden="true">✦</span>
         <span class="brand-text">
           <strong>Carla Almeida Lira</strong>
           <span>Massoterapia Home Care</span>
         </span>
       </a>
 
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu">
-        <span class="sr-only">Abrir menu</span>
-        <span class="hamburger" aria-hidden="true"></span>
-      </button>
-
-      <div id="menu" class="nav-links">
+      <nav class="main-nav" aria-label="Navegação principal">
         <a href="#servicos">Serviços</a>
+        <a href="#processo">Como funciona</a>
         <a href="#beneficios">Benefícios</a>
         <a href="#depoimentos">Depoimentos</a>
-        <a href="#sobre">Sobre</a>
         <a href="#faq">Dúvidas</a>
-        <a class="nav-cta" href="#agendar">Agendar</a>
-      </div>
-    </nav>
+      </nav>
+
+      <a class="button button-primary" href="#agendar">Agendar sessão</a>
+    </div>
   </header>
 
-  <main id="conteudo">
-    <!-- HERO -->
-    <section id="inicio" class="hero" aria-label="Seção principal">
+  <main id="main-content">
+    <section class="hero-section">
       <div class="container hero-grid">
-        <div class="hero-text">
-          <p class="badge">Atendimento domiciliar • Calmo, acolhedor e profissional</p>
-
-          <h1>
-            Traga o <span class="soft">spa</span> para a sua casa.
-            <br />
-            Respire. Relaxe. Recarregue.
-          </h1>
-
-          <p class="lead">
-            Massoterapia home care feita pra você desacelerar de verdade: alívio de tensões,
-            relaxamento profundo e cuidado humano — sem estresse de deslocamento.
+        <div class="hero-copy">
+          <p class="eyebrow">experiência premium no conforto da sua casa</p>
+          <h1>Um novo padrão de bem-estar para corpo e mente.</h1>
+          <p>
+            Atendimento domiciliar com abordagem humanizada para aliviar tensão, reduzir
+            estresse e devolver equilíbrio ao seu dia.
           </p>
 
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#agendar">Agendar agora</a>
-            <a class="btn btn-ghost" href="#servicos">Ver serviços</a>
+            <a class="button button-primary" href="#agendar">Quero agendar</a>
+            <a class="button button-secondary" href="#servicos">Conhecer serviços</a>
           </div>
 
-          <ul class="trust-row" aria-label="Destaques de confiança">
-            <li>Higiene e segurança</li>
-            <li>Ambiente preparado</li>
-            <li>Pressão ajustável</li>
+          <ul class="hero-highlights" aria-label="Destaques do atendimento">
+            <li>Atendimento individual</li>
+            <li>Protocolos de higiene rigorosos</li>
+            <li>Sessões de 45 a 90 minutos</li>
           </ul>
         </div>
 
-        <div class="hero-card" aria-label="Cartão de destaque">
-          <div class="hero-card-inner">
-            <h2>Quer uma sessão perfeita?</h2>
-            <p>
-              Você me diz como está se sentindo e eu adapto a técnica e a pressão.
-              A ideia é você sair leve — corpo e mente.
-            </p>
+        <aside class="hero-panel" aria-label="Resumo de atendimento">
+          <h2>Seu cuidado, seu ritmo</h2>
+          <p>
+            Cada sessão é desenhada para o seu momento, com técnicas ajustadas ao seu nível de
+            conforto e objetivo terapêutico.
+          </p>
 
-            <div class="mini-info">
-              <div class="mini-box">
-                <span class="mini-title">Duração</span>
-                <span class="mini-value">45 a 90 min</span>
-              </div>
-              <div class="mini-box">
-                <span class="mini-title">Atendimento</span>
-                <span class="mini-value">Home care</span>
-              </div>
-              <div class="mini-box">
-                <span class="mini-title">Foco</span>
-                <span class="mini-value">Relax + Dor</span>
-              </div>
+          <dl class="hero-metrics">
+            <div>
+              <dt>Formato</dt>
+              <dd>Home care</dd>
             </div>
+            <div>
+              <dt>Duração</dt>
+              <dd>45–90 min</dd>
+            </div>
+            <div>
+              <dt>Foco</dt>
+              <dd>Relaxamento + Terapêutica</dd>
+            </div>
+          </dl>
 
-            <a class="btn btn-secondary" href="#agendar">Quero agendar</a>
-            <p class="small-note">Sem compromisso: você tira dúvidas antes 🙂</p>
-          </div>
-        </div>
+          <a class="button button-secondary button-full" href="#agendar">Solicitar atendimento</a>
+        </aside>
       </div>
-
-      <div class="hero-waves" aria-hidden="true"></div>
     </section>
 
-    <!-- SERVIÇOS -->
-    <section id="servicos" class="section">
+    <section class="section" id="servicos">
       <div class="container">
-        <div class="section-head">
-          <h2>Serviços</h2>
-          <p>Escolha seu objetivo — eu cuido do resto com calma e técnica.</p>
-        </div>
+        <header class="section-head">
+          <p class="eyebrow">serviços</p>
+          <h2>Técnicas aplicadas com objetivo claro</h2>
+          <p>
+            Escolha o serviço ideal para sua necessidade atual. A combinação de técnicas pode ser
+            personalizada durante a sessão.
+          </p>
+        </header>
 
-        <div class="cards-grid">
+        <div class="service-grid">
           <article class="card">
             <h3>Massagem Relaxante</h3>
-            <p>Ideal para estresse, ansiedade e cansaço acumulado. Você “desliga” de verdade.</p>
-            <ul class="checklist">
-              <li>Reduz tensão</li>
-              <li>Melhora o sono</li>
-              <li>Sensação de leveza</li>
-            </ul>
+            <p>Redução de estresse físico e mental para melhorar disposição e qualidade do sono.</p>
           </article>
-
           <article class="card">
             <h3>Massagem Terapêutica</h3>
-            <p>Foco em pontos de dor e tensão muscular. Cuidado sem brutalidade.</p>
-            <ul class="checklist">
-              <li>Alívio de dor</li>
-              <li>Liberação de tensão</li>
-              <li>Recuperação funcional</li>
-            </ul>
+            <p>Foco em regiões com dor, tensão e rigidez muscular para recuperação funcional.</p>
           </article>
-
           <article class="card">
             <h3>Pedras Quentes</h3>
-            <p>Relaxamento profundo com calor terapêutico. Perfeita pra “derreter” o estresse.</p>
-            <ul class="checklist">
-              <li>Calma intensa</li>
-              <li>Conforto térmico</li>
-              <li>Bem-estar imediato</li>
-            </ul>
+            <p>Calor terapêutico para promover relaxamento profundo e aliviar desconfortos.</p>
           </article>
-
           <article class="card">
             <h3>Ventosoterapia</h3>
-            <p>Excelente para tensões e rigidez muscular. Aplicação com segurança e orientação.</p>
-            <ul class="checklist">
-              <li>Solta musculatura</li>
-              <li>Ajuda na circulação</li>
-              <li>Relaxamento localizado</li>
-            </ul>
+            <p>Estímulo da circulação e soltura da musculatura com aplicação segura e técnica.</p>
           </article>
-
           <article class="card">
             <h3>Drenagem Linfática</h3>
-            <p>Toques específicos para reduzir inchaço e favorecer leveza corporal.</p>
-            <ul class="checklist">
-              <li>Reduz retenção</li>
-              <li>Leveza nas pernas</li>
-              <li>Bem-estar geral</li>
-            </ul>
+            <p>Movimentos específicos para auxiliar na retenção de líquidos e sensação de leveza.</p>
           </article>
-
-          <article class="card highlight">
+          <article class="card card-accent">
             <h3>Sessão Personalizada</h3>
-            <p>Você me conta o que sente e eu monto a sessão com as técnicas certas.</p>
-            <ul class="checklist">
-              <li>Pressão do seu jeito</li>
-              <li>Foco no que incomoda</li>
-              <li>Experiência acolhedora</li>
-            </ul>
+            <p>Planejamento completo para unir técnicas conforme histórico, objetivo e conforto.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- BENEFÍCIOS -->
-    <section id="beneficios" class="section section-soft">
+    <section class="section section-muted" id="processo">
       <div class="container">
-        <div class="section-head">
-          <h2>Benefícios reais (sem promessa milagrosa)</h2>
-          <p>O objetivo é simples: você sair melhor do que entrou — com constância e cuidado.</p>
-        </div>
+        <header class="section-head">
+          <p class="eyebrow">como funciona</p>
+          <h2>Processo simples, experiência profissional</h2>
+        </header>
 
-        <div class="benefits-grid">
-          <div class="benefit">
-            <span class="benefit-num">01</span>
-            <h3>Menos estresse</h3>
-            <p>O corpo relaxa e a cabeça acompanha. É tipo “baixar o volume” do mundo.</p>
-          </div>
-
-          <div class="benefit">
-            <span class="benefit-num">02</span>
-            <h3>Alívio de tensão</h3>
-            <p>Aquela sensação de ombro duro e pescoço travado tende a reduzir bastante.</p>
-          </div>
-
-          <div class="benefit">
-            <span class="benefit-num">03</span>
-            <h3>Sono mais profundo</h3>
-            <p>Quando o corpo desarma, o sono vem mais fácil. Sem brigar com o travesseiro.</p>
-          </div>
-
-          <div class="benefit">
-            <span class="benefit-num">04</span>
-            <h3>Bem-estar no lar</h3>
-            <p>Você não perde energia saindo de casa. É cuidado + conforto no mesmo lugar.</p>
-          </div>
-        </div>
+        <ol class="timeline">
+          <li>
+            <span>01</span>
+            <div>
+              <h3>Briefing inicial</h3>
+              <p>Você compartilha seu objetivo, sintomas e preferências para orientar a sessão.</p>
+            </div>
+          </li>
+          <li>
+            <span>02</span>
+            <div>
+              <h3>Planejamento terapêutico</h3>
+              <p>Defino as técnicas e duração adequadas ao seu contexto atual.</p>
+            </div>
+          </li>
+          <li>
+            <span>03</span>
+            <div>
+              <h3>Atendimento no local</h3>
+              <p>Execução no seu ambiente com estrutura organizada e protocolo de higiene.</p>
+            </div>
+          </li>
+          <li>
+            <span>04</span>
+            <div>
+              <h3>Orientações pós-sessão</h3>
+              <p>Você recebe recomendações simples para prolongar os benefícios da sessão.</p>
+            </div>
+          </li>
+        </ol>
       </div>
     </section>
 
-    <!-- PROVA SOCIAL -->
-    <section id="depoimentos" class="section">
-      <div class="container">
-        <div class="section-head">
-          <h2>Depoimentos</h2>
-          <p>O que mais importa é como você se sente depois.</p>
-        </div>
-
-        <div class="testimonials-grid">
-          <figure class="quote">
-            <blockquote>
-              “Eu cheguei toda travada e saí leve. A sessão foi calma e muito respeitosa.”
-            </blockquote>
-            <figcaption>— Cliente (depoimento)</figcaption>
-          </figure>
-
-          <figure class="quote">
-            <blockquote>
-              “Foi a primeira vez que senti que a massagem foi no meu ritmo, sem pressa.”
-            </blockquote>
-            <figcaption>— Cliente (depoimento)</figcaption>
-          </figure>
-
-          <figure class="quote">
-            <blockquote>
-              “Só de não precisar me deslocar já muda tudo. E o cuidado foi impecável.”
-            </blockquote>
-            <figcaption>— Cliente (depoimento)</figcaption>
-          </figure>
-        </div>
-
-        <p class="tiny">
-          *Troque pelos depoimentos reais (texto + foto com permissão).
-        </p>
-      </div>
-    </section>
-
-    <!-- SOBRE -->
-    <section id="sobre" class="section section-soft">
-      <div class="container about-grid">
-        <div class="about-text">
-          <h2>Sobre mim</h2>
+    <section class="section" id="beneficios">
+      <div class="container two-column">
+        <div>
+          <p class="eyebrow">benefícios</p>
+          <h2>Resultados percebidos no dia a dia</h2>
           <p>
-            Sou a <strong>Carla Almeida Lira</strong>, massoterapeuta. Meu trabalho é unir
-            técnica, acolhimento e segurança para você relaxar de verdade.
+            A massoterapia regular contribui para qualidade de vida com melhora de bem-estar,
+            consciência corporal e equilíbrio emocional.
           </p>
-          <p>
-            Aqui a sessão não é “corrida”. A gente conversa, entende seu momento,
-            ajusta a pressão e respeita seus limites. É cuidado humano.
-          </p>
-
-          <ul class="checklist">
-            <li>Atendimento com orientação e respeito</li>
-            <li>Higiene e organização do ambiente</li>
-            <li>Foco em conforto e resultado</li>
-          </ul>
         </div>
 
-        <div class="about-card" aria-label="Card com destaque">
-          <h3>Como funciona o atendimento</h3>
-          <ol class="steps">
-            <li><strong>Você chama</strong> e me conta seu objetivo.</li>
-            <li><strong>Eu confirmo</strong> horário e preparo o atendimento.</li>
-            <li><strong>A sessão acontece</strong> no seu lar, com calma e segurança.</li>
-            <li><strong>Você sai leve</strong> e com recomendações simples.</li>
-          </ol>
-        </div>
+        <ul class="benefit-list">
+          <li>Alívio progressivo de tensão muscular</li>
+          <li>Redução da sobrecarga emocional</li>
+          <li>Sono mais profundo e reparador</li>
+          <li>Melhora da mobilidade e postura</li>
+          <li>Maior sensação de energia e leveza</li>
+        </ul>
       </div>
     </section>
 
-    <!-- FAQ -->
-    <section id="faq" class="section">
+    <section class="section section-muted" id="depoimentos">
       <div class="container">
-        <div class="section-head">
-          <h2>Dúvidas frequentes</h2>
-          <p>Se bateu qualquer insegurança, aqui resolve rapidinho.</p>
+        <header class="section-head">
+          <p class="eyebrow">depoimentos</p>
+          <h2>Feedback de quem já viveu a experiência</h2>
+        </header>
+
+        <div class="testimonial-grid">
+          <figure class="testimonial">
+            <blockquote>
+              “Cheguei com dor nas costas e saí muito mais leve. Atendimento acolhedor e técnico.”
+            </blockquote>
+            <figcaption>Cliente — sessão terapêutica</figcaption>
+          </figure>
+          <figure class="testimonial">
+            <blockquote>
+              “A sessão em casa mudou tudo. Sem correria e com foco total no meu conforto.”
+            </blockquote>
+            <figcaption>Cliente — sessão relaxante</figcaption>
+          </figure>
+          <figure class="testimonial">
+            <blockquote>
+              “Percebi melhora no sono já na primeira semana após iniciar o acompanhamento.”
+            </blockquote>
+            <figcaption>Cliente — acompanhamento mensal</figcaption>
+          </figure>
         </div>
+      </div>
+    </section>
 
-        <div class="faq">
-          <details class="faq-item">
-            <summary>Massagem é para todos?</summary>
-            <p>Em geral sim, mas eu sempre faço perguntas antes e adapto a sessão ao seu caso.</p>
+    <section class="section" id="faq">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">dúvidas frequentes</p>
+          <h2>Perguntas comuns antes do agendamento</h2>
+        </header>
+
+        <div class="faq-list">
+          <details>
+            <summary>Massoterapia é indicada para qualquer pessoa?</summary>
+            <p>
+              Na maioria dos casos, sim. Antes do atendimento, é feita uma triagem para identificar
+              restrições e garantir segurança.
+            </p>
           </details>
-
-          <details class="faq-item">
-            <summary>Preciso me preparar?</summary>
-            <p>Roupas confortáveis e evitar refeição pesada antes já ajudam bastante.</p>
+          <details>
+            <summary>Preciso preparar algo em casa?</summary>
+            <p>
+              Apenas um espaço livre e silencioso. Todo o restante é alinhado durante o contato.
+            </p>
           </details>
-
-          <details class="faq-item">
-            <summary>Quanto tempo dura?</summary>
-            <p>Entre 45 e 90 minutos, dependendo do objetivo e da técnica.</p>
+          <details>
+            <summary>Como escolher a técnica ideal?</summary>
+            <p>
+              A escolha é feita em conjunto, considerando seu objetivo principal e sensibilidade.
+            </p>
           </details>
-
-          <details class="faq-item">
-            <summary>Posso escolher a pressão?</summary>
-            <p>Sim. A pressão é ajustada no seu conforto. A ideia é aliviar, não sofrer.</p>
-          </details>
-
-          <details class="faq-item">
-            <summary>É seguro e higiênico?</summary>
-            <p>Sim. O atendimento segue cuidados rígidos de higiene e organização do ambiente.</p>
+          <details>
+            <summary>Posso ajustar a pressão durante a sessão?</summary>
+            <p>
+              Sim. O nível de pressão é sempre adaptado para manter conforto e eficiência.
+            </p>
           </details>
         </div>
       </div>
     </section>
 
-    <!-- CTA / AGENDAR -->
-    <section id="agendar" class="section cta">
+    <section class="section cta-section" id="agendar">
       <div class="container cta-box">
-        <h2>Pronto pra se sentir melhor hoje?</h2>
+        <p class="eyebrow">agendamento</p>
+        <h2>Pronta para começar sua jornada de bem-estar?</h2>
         <p>
-          Me chama e me diz: “quero relaxar” ou “tô com dor/tensão”.
-          Eu te orientarei no melhor tipo de sessão.
+          Clique no botão abaixo e envie uma mensagem com seu objetivo. Você receberá orientação
+          personalizada para definir a sessão ideal.
         </p>
-
-        <div class="cta-actions">
-          <!-- Troque o número e a mensagem -->
-          <a class="btn btn-primary" href="https://wa.me/5500000000000?text=Oi!%20Quero%20agendar%20uma%20massagem%20home%20care.%20Pode%20me%20passar%20os%20hor%C3%A1rios%3F" target="_blank" rel="noopener">
-            Agendar no WhatsApp
-          </a>
-          <a class="btn btn-ghost" href="#servicos">Ver serviços novamente</a>
-        </div>
-
-        <p class="small-note">
-          Atendimento domiciliar • Sessões de 45 a 90 min • Pressão ajustável
-        </p>
+        <a
+          class="button button-primary"
+          href="https://wa.me/5500000000000?text=Olá!%20Quero%20agendar%20uma%20sessão%20de%20massoterapia%20home%20care."
+          target="_blank"
+          rel="noopener"
+        >
+          Agendar via WhatsApp
+        </a>
       </div>
     </section>
   </main>
 
-  <footer class="footer" role="contentinfo">
-    <div class="container footer-grid">
-      <p>
-        <strong>Carla Almeida Lira</strong><br />
-        Massoterapia Home Care
-      </p>
-
-      <p class="tiny">
-        &copy; 2026. Todos os direitos reservados.
-      </p>
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p><strong>Carla Almeida Lira</strong> · Massoterapia Home Care</p>
+      <p>© 2026. Todos os direitos reservados.</p>
     </div>
   </footer>
 </body>
